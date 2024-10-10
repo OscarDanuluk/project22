@@ -1,0 +1,58 @@
+body{
+    background: #1E252B;
+    
+}
+li{
+    list-style: none;
+}
+.container{
+    margin-left: 120px;
+    margin-right: 105px;
+}
+:root{
+    --whiteDark:rgba(255, 255, 255, 0.55);
+    --white:white;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+}
+.header-icon{
+    display: flex;
+    align-items: center;
+}
+.header-link {
+    color: var(--white);
+    text-decoration: none;
+    margin-left: 22px;
+}
+.header-nav {
+    display: flex;
+}
+.header-ul {
+    display: flex;
+
+}
+.header-ul-li {
+    color: var(--whiteDark);
+    margin-left: 30px;
+    list-style: none;
+}
+.header-account {
+    display: flex;
+    align-items: center;
+}
+.header-account-login {
+    color: var(--whiteDark);
+    margin-right: 40px;
+}
+.header-account-sign {
+    color: var(--white);
+    background:#FF6E30 ;
+    padding: 12px 28px;
+    border-radius: 8px;
+    
+}
