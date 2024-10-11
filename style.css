@@ -40,6 +40,17 @@ li{
     color: var(--whiteDark);
     margin-left: 30px;
     list-style: none;
+    cursor: pointer;
+}
+.after{
+    position: relative;
+    }
+    .after::after{
+        content:'>';
+        position: absolute;
+        rotate: 90deg;
+        right: -12px;
+        top: 4px;
 }
 .header-account {
     display: flex;
@@ -55,4 +66,22 @@ li{
     padding: 12px 28px;
     border-radius: 8px;
     
+}
+.hero {
+    display: flex;
+
+}
+.hero-title {
+    display: flex;
+    color: var(--white);
+}
+.hero-description {
+    color: var(--whiteDark);
+}
+.hero-img {
+}
+.hero-input {
+
+}
+.hero-search {
 }
