@@ -1,3 +1,4 @@
+@import '/reset.css';
 body{
     background: #1E252B;
     
@@ -69,19 +70,53 @@ li{
 }
 .hero {
     display: flex;
+background:url(/images/Illustration.png) no-repeat right/contain ;
+flex-direction: column;
 
 }
 .hero-title {
-    display: flex;
     color: var(--white);
+    font-weight: 500;
+font-size: 50px;
+line-height: 140%;
+}
+.hero-dott{
+    color: #FF6E30;
 }
 .hero-description {
     color: var(--whiteDark);
+    font-weight: 400;
+font-size: 18px;
+line-height: 167%
 }
 .hero-img {
 }
 .hero-input {
+    width: 350px;
+    background: #283036;
+border-radius: 7px;
+border: none;
+padding: 20px 4px;
+padding-left: 43px;
+color: var(--white);
+}
+.hero-label{
+    position: relative;
+    
+}
+.hero-label::after{
+    content: 'search';
+    color: var(--white);
+    background:#FF6E30 ;
+    padding: 12px 28px;
+    border-radius: 8px;
+    margin-left: -108px;
+    cursor: pointer;
 
 }
 .hero-search {
+    width: 120px;
+}
+.hero-icons{
+    display: flex;
 }
