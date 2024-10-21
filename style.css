@@ -250,36 +250,112 @@ width: 1200px;
 }
 .newcomer-right {
     flex-basis: 50%;
-    flex-wrap: wrap;
+    
 }
 .newcomer-right-list {
     display: flex;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap:50px ;
     
 }
-.tools-card-item {
-}
-.tools-item-icon {
-}
-.tools-item-image {
-}
-.tools-cards-item-right {
-}
-.tools-cards-right-title {
-}
-.tools-cards-right-description {
-}
-.tools-card-item-desc {
-}
-.tools-cards-right-ul {
-}
-.tools-cards-right-li {
-}
-.heart {
-}
-.file {
-}
-.tools-cards-right {
-}
 .newcomer-right-list .tools-card-item{
-width: 400px;
+width: 300px;
+}
+.newcomer-right-list .tools-card-item .tools-item-icon{
+    column-gap: 30px;
+}
+.slider-wrapper {
+}
+.container {
+}
+.slider {
+    display: flex;
+    align-items: center;
+}
+.slider-left {
+    flex-basis: 50%;
+    position: relative;
+    
+}
+.slider-left-image {
+    margin-left: 300px;
+    width: 400px;
+    height: 500px;
+}
+.slider-left-h3 {
+    color: var(--white);
+    margin: 2px 0px;
+}
+.slider-left-description {
+    color: var(--whiteDark);
+    line-height: 30px;
+    margin: 2px 0px;
+}
+.slider-right {
+    color: var(--white);
+    flex-basis: 50%;
+    font-size: 14px;
+}
+.slider-left-container{
+    position: absolute;
+    left: 550px;
+    bottom: 120px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+.form-wrapper {
+    margin-top: 250px;
+margin-bottom: 240px;
+}
+.container {
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-title {
+    color: var(--white);
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+.form-description {
+    color: var(--whiteDark);
+    font-size: 18px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.hero-label {
+}
+.hero-input {
+}
+.container {
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-copyright {
+    color: var(--whiteDark);
+}
+.footer-copyright-data {
+
+}
+.footer-navigation {
+}
+.footer-navigation-item {
+    color: var(--whiteDark);
+    margin-bottom: 10px;
+}
+.copyright{
+    color: var(--white);
+    margin-top: 25px;
+    margin-bottom: 20px;
+    
+}
+.footer-navigation-item:first-child {
+    color: var(--white);
+    margin-bottom: 20px;
 }
